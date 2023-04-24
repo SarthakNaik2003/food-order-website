@@ -1,0 +1,116 @@
+/* reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(banner-bg.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 600;
+
+}
+.inner-box{
+    width: 50vh;
+    height: 60vh;
+    background-color: #0f2450f5;
+    border-radius: 20px;
+    box-shadow: 15px 15px 150px 15px rgb(19, 6, 80);
+    margin-top: 40px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+     
+}
+.header-body{
+    width: 200px;
+    margin-top: 27px;
+    height: 50px;
+    background-color:#0c3234;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    
+    
+}
+.header-body a {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    padding:15px;
+    /* border: 2px solid #ffb900; */
+    border-radius: 30px;
+    text-align: center;
+    background-color:#0c3234;
+    color: antiquewhite;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.header-button-2 a{
+    background-color: orange;
+} 
+.sign-in-form{
+    display: flex;
+    flex-direction: column;    
+}
+.sign-in-form p{
+    
+    margin : 10px;
+    text-decoration: underline;
+}
+.sign-in-form p input{
+    width: 250px;
+    padding: 5px;
+    border: none;
+    background-color: #0f2450eb;
+    color: aliceblue;
+    border-bottom: 2px solid #ecf1f1;
+    font-size: medium;
+   
+}
+.sign-in-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.sign-in-footer .text{
+    font-weight: 500;
+    font-size: 13px;
+    color: #ecf1f1;
+    margin: 10px;
+
+}
+.sign-in-footer  .submit{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    padding:10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:#532a0e;
+    color: rgb(242, 238, 233);
+    padding-left: 25%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+    color: rgb(232, 233, 226);
+}
+.yellow{
+    color: rgb(255, 128, 0);
+}
