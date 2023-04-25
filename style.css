@@ -8,7 +8,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.sign-in body{
+body{
     height: 100vh;
     background-image: url(banner-bg.jpeg);
     background-repeat:no-repeat;
@@ -112,89 +112,7 @@ a {
 }
 
 
-/* ===================================================================================================================== */
 
-/*                                                  HOME PAGE                                                             */
-
-/* ===================================================================================================================== */
-.hp{
-    background: #bbf4cea2;
-    width: 100%;
-    
-}
-
-.hp .top-nav{
-    
-    background: rgb(175, 170, 170);
-    display: flex;
-
-
-}
-.hp .top-nav .search-col{
-    margin: 7px;
-    margin-left: 20px;
-    padding: 5px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: 300;
-    width: 900px;
-    background-color: aliceblue;
-    border-radius: 20px;
-    margin-right: 330px;
-}
-
-
-
-.hp .top-nav img{
-    margin: 5px;
-    margin-left: 10px;
-    width: 40px;
-    align-items: end;
-}
-
-
-
-                            /* main-1  */
-.main-1{
-    margin-top: 20px;
-    height: 250px;
-    background-color: #0f2450eb;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    justify-content: space-around;
-}
-.main-1 .main-1-img{
-    padding: 30px;
-    width: 300px;
-}
-
-.main-2 {
-    display: flex;
-    
-   
-   
-    
-}
-.main-2 img{
-    width: 150px;
-    height: 150px;
-    margin-left: 170px;
-    margin-top: 40px;
-
-
-}
-.foot {
-    margin-top: 50px ;
-    padding-left: 50px;
-    padding: 20px;
-    background: rgb(231, 189, 189);
-    margin-bottom: 20px;
-
-}
-.foot a{
-    color: #0c3234;
-}
 
 
 
